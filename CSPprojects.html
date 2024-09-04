@@ -15,6 +15,19 @@
             text-align: center;
             color: #333;
         }
+        .navbar {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
         .project {
             margin-bottom: 20px;
             padding: 10px;
@@ -22,8 +35,8 @@
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-            width: 50%; /* Proje kutucuğunun genişliğini %50 olarak ayarla */
-            margin: 0 auto; /* Ortalamak için */
+            width: 50%;
+            margin: 0 auto;
         }
         .project img {
             max-width: 100%;
@@ -47,6 +60,14 @@
 <body>
 
     <h1>İbrahim Erginoğlu - CS Projects</h1>
+
+    <!-- Navigasyon Menüsü -->
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="cs_projects.html">CS Projects</a>
+        <a href="cs50.html">CS50</a>
+        <a href="documents.html">Documents</a>
+    </div>
 
     <div class="project">
         <h2>Proje 1: Opening a Github Page</h2>
