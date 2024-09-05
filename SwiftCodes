@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İbrahim Erginoğlu - Kod Çalışmaları</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .navbar {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .code-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .code-section h2 {
+            margin-top: 0;
+            color: #555;
+        }
+        .code-section a {
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+        .code-section a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>İbrahim Erginoğlu - Kod Çalışmaları</h1>
+
+    <!-- Önceki sayfaya geri dönmek için link -->
+    <div class="navbar">
+        <a href="cs_projects.html">Önceki Sayfama Geri Dön</a>
+    </div>
+
+    <!-- Kod Çalışması 1 -->
+    <div class="code-section">
+        <h2>Kod Çalışması 1: Python Veri Analizi</h2>
+        <a href="https://example.com/python_veri_analizi">Kod Çalışmasını Görüntüle</a>
+    </div>
+
+    <!-- Kod Çalışması 2 -->
+    <div class="code-section">
+        <h2>Kod Çalışması 2: JavaScript To-Do Uygulaması</h2>
+        <a href="https://example.com/js_todo_uygulamasi">Kod Çalışmasını Görüntüle</a>
+    </div>
+
+    <!-- Kod Çalışması 3 -->
+    <div class="code-section">
+        <h2>Kod Çalışması 3: Swift Mobil Uygulama Geliştirme</h2>
+        <a href="https://example.com/swift_mobil_uygulama">Kod Çalışmasını Görüntüle</a>
+    </div>
+
+</body>
+</html>
